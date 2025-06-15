@@ -1,0 +1,16 @@
+sizeof(int) = 4 y sizeof(int*) = 8
+
+x = 0x40000000
+¿x+1?
+
+a) char *x[11];
+    x + 1 -> 0x40000008
+
+b) int x[7][3];
+    x + 1 -> 0x4000000C
+
+c) void **x;
+    x + 1 -> ERROR no se puede hacer aritmetica de punteros con un void pointer  
+
+d) const float (*x)[5];
+    x + 1 -> 0x40000014
