@@ -1,0 +1,5 @@
+para cambiar el stdin se ejecuta en consola esto:
+    ./(nombre de programa) < (nombre del archivo de lectura)
+
+Cuando se ingresa desde consola el getchar se queda en un loop hasta que
+el usuario ingresa un ENTER.

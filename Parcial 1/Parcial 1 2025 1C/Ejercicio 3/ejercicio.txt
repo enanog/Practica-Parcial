@@ -1,0 +1,3 @@
+Depende de la ptaforma ya que devuelve el tamaño de un espacio de direccion
+de memoria, esto puede ser tanto de 2 bytes si es de 16 bits la plataforma,
+4 bytes si la plataforma es de 32, etc.

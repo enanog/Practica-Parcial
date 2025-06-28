@@ -1,0 +1,20 @@
+Podes usar diferentes modos,
+
+"r" (lectura):
+    sirve para leer, si no existe se produce error,
+    devuelve un puntero a NULL
+"w" (escritura):
+    abre un archivo para escritura,
+    si existe lo sobreescribe sino lo crea
+"a" (añadir):
+    Abre un archivo para añadir datos al final del mismo.
+    Si no existe, se crea. 
+"r+" (lectura y escritura):
+    Abre un archivo existente para lectura y escritura. 
+"w+" (lectura y escritura):
+    Crea un archivo para lectura y escritura,
+    truncando su contenido si ya existe. 
+"a+" (lectura y añadir):
+    Abre un archivo para lectura y escritura, 
+    añadiendo datos al final. Si no existe, se crea. 
+
